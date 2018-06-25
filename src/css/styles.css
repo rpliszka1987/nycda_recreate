@@ -1,0 +1,52 @@
+.nav-design {
+  background: #1a1919 !important;
+  height: 70px !important; }
+
+.dropdown-design {
+  background: #2d2c2c !important; }
+
+.dropdown-text-design {
+  color: #fff !important;
+  text-align: left !important; }
+
+.dropdown-text-design:hover {
+  color: #f6c925 !important;
+  background: none !important; }
+
+.dropdown:hover .dropdown-menu {
+  display: block !important; }
+
+.button-design {
+  background: none !important;
+  border: #fff solid 1px !important;
+  color: #fff !important;
+  margin-left: 40px !important;
+  border-radius: 0% !important;
+  padding: 10px !important; }
+
+#navbarDropdown {
+  color: #fff !important; }
+
+.blog-design {
+  color: #fff !important; }
+
+.button-design:hover {
+  background: #fff !important;
+  color: #000 !important; }
+
+.jumbotron {
+  background-image: url(https://s3-us-west-2.amazonaws.com/nycda-assets/posts/hero_images/000/008/678/big/glenn-carstens-peters-203007-unsplash.jpg?1521827698);
+  background-size: cover !important;
+  background-repeat: none !important;
+  background-position: 0% !important; }
+
+.search-button-color {
+  background: #f5ca35 !important;
+  border: none !important;
+  border-radius: 0% !important; }
+
+.search-layout {
+  margin-bottom: 60px !important; }
+
+.layout-jumbo {
+  padding-left: 20% !important; }
