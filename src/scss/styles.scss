@@ -44,10 +44,21 @@
 }
 
 .jumbotron {
-  background-image: url(https://s3-us-west-2.amazonaws.com/nycda-assets/posts/hero_images/000/008/678/big/glenn-carstens-peters-203007-unsplash.jpg?1521827698);
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.65) 0%,
+      transparent 100%
+    ),
+    url(https://s3-us-west-2.amazonaws.com/nycda-assets/posts/hero_images/000/008/678/big/glenn-carstens-peters-203007-unsplash.jpg?1521827698);
   background-size: cover !important;
   background-repeat: none !important;
   background-position: 0% !important;
+  padding-bottom: 3px !important;
+  padding-top: 3px;
+}
+
+img.background {
+  -webkit-filter: brightness(85%);
 }
 
 .search-button-color {
@@ -57,9 +68,45 @@
 }
 
 .search-layout {
+  margin-top: 15px !important;
   margin-bottom: 60px !important;
 }
 
 .layout-jumbo {
   padding-left: 20% !important;
+  padding-right: 20% !important;
+}
+
+.jumbotron-first-line {
+  color: #e4c15d !important;
+}
+
+#readmore-button {
+  color: #e4c15d !important;
+}
+
+.white-text {
+  color: #fff !important;
+}
+
+#search-input-style {
+  border: black 1px solid !important;
+  border-radius: 0%;
+  height: 30px;
+}
+
+.text-height-style {
+  font-size: 15px;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 10vw;
+  object-fit: cover;
+}
+
+.card-style {
+  padding-left: 15%;
+  padding-right: 15%;
+  width: 100% !important;
 }
